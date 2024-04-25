@@ -2,7 +2,6 @@
   <div>
     <div class="flex justify-between">
       <span class="mt-2 ms-2 text-lg font-semibold">{{ $route.name }}</span>
-
       <button type="button" data-modal-target="apply-package-modal" data-modal-toggle="apply-package-modal"  class="btn-primary" @click="selectedData = null">Paket Uygula</button>
     </div>
     <applied-packages-create-modal :data="selectedData" />
@@ -98,11 +97,27 @@ const destroy = async () => {
 
 let usageGridUrl = ref('');
 let usageGridData = ref(null);
+import {useRoute, useRouter} from "vue-router";
+const router = useRouter()
+const route = useRoute()
+function resetQuery (){
+  let newQuery = {...route.query, ...{'use_page': 1, 'use_limit': 5}}
 
+  router.replace({
+    path: '/applied-packages',
+    query: newQuery
+  });
+}
 const showDetails =  (val) => {
-  usageGridUrl.value = ''
-  nextTick(()=> usageGridUrl.value = '/package-usages?packageId=' + val.packageId )
-  usageGridData.value = val
+  if('use_page' in route.query){
+    resetQuery()
+  }
+  setTimeout(()=> {
+    usageGridUrl.value = ''
+    nextTick(()=> usageGridUrl.value = '/package-usages?packageId=' + val.packageId )
+    usageGridData.value = val
+  },100)
+
 }
 
 const columns = [
