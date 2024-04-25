@@ -1,0 +1,677 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "name": "4 Binlik Paket",
+      "examination": 10,
+      "control": 1,
+      "duration": 1,
+      "durationUnit": "year",
+      "price": 1800,
+      "currency": "TRY",
+      "status": 1,
+      "userIds": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "10 Seanslık Masaj Paketi",
+      "examination": 10,
+      "control": 0,
+      "duration": 180,
+      "durationUnit": "day",
+      "price": 250,
+      "currency": "TRY",
+      "status": 1,
+      "userIds": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "20 Seanslık Masaj Paketi",
+      "userIds": [
+        "1",
+        "2"
+      ],
+      "examination": 20,
+      "control": 0,
+      "duration": 3,
+      "durationUnit": "week",
+      "price": 12120,
+      "currency": "TRY",
+      "status": 0
+    },
+    {
+      "name": "5 Binlik Dolgu Paketi",
+      "examination": "4",
+      "control": 2,
+      "duration": 6,
+      "durationUnit": "month",
+      "price": 1910000,
+      "currency": "TRY",
+      "userIds": [
+        "1",
+        "2"
+      ],
+      "status": 1,
+      "id": "4"
+    },
+    {
+      "name": "tetet",
+      "examination": 0,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "year",
+      "price": "",
+      "currency": "TRY",
+      "userIds": [
+        "4"
+      ],
+      "status": 0,
+      "id": "Q8sFTRa"
+    },
+    {
+      "name": "tetetqq",
+      "examination": 0,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "year",
+      "price": "",
+      "currency": "TRY",
+      "userIds": [
+        "4"
+      ],
+      "status": 0,
+      "id": "qR-OiVH"
+    },
+    {
+      "name": "tetet",
+      "examination": 0,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "year",
+      "price": "",
+      "currency": "TRY",
+      "userIds": [],
+      "status": 0,
+      "id": "9L4YgGc"
+    },
+    {
+      "name": "qwe",
+      "examination": 0,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "year",
+      "price": "",
+      "currency": "TRY",
+      "userIds": [],
+      "status": 0,
+      "id": "PTx-eCl"
+    }
+  ],
+  "applied-packages": [
+    {
+      "id": 1,
+      "startedAt": "2011-07-05T23:35:26.928Z",
+      "userId": "4",
+      "packageId": "3",
+      "examination": 6,
+      "control": 1,
+      "duration": 1,
+      "durationUnit": "week",
+      "note": "",
+      "price": 879.77,
+      "currency": "EUR"
+    },
+    {
+      "id": 2,
+      "startedAt": "2014-04-04T21:56:53.507Z",
+      "userId": "2",
+      "packageId": "4",
+      "examination": 1,
+      "control": 10,
+      "duration": 1,
+      "durationUnit": "year",
+      "note": "",
+      "price": 1549.28,
+      "currency": "EUR"
+    },
+    {
+      "id": 3,
+      "startedAt": "2010-03-28T02:17:09.269Z",
+      "userId": "5",
+      "packageId": "4",
+      "examination": 2,
+      "control": 7,
+      "duration": 2,
+      "durationUnit": "week",
+      "note": "",
+      "price": 2271.35,
+      "currency": "TRY"
+    },
+    {
+      "startedAt": {},
+      "userId": "2",
+      "packageId": "2",
+      "examination": 10,
+      "control": 0,
+      "duration": 180,
+      "durationUnit": "day",
+      "note": "",
+      "price": 250,
+      "currency": "TRY",
+      "id": 4
+    },
+    {
+      "startedAt": "2013-05-31T18:21:01.558Z",
+      "userId": "1",
+      "packageId": "3",
+      "examination": 5,
+      "control": 8,
+      "duration": 5,
+      "durationUnit": "month",
+      "note": "",
+      "price": 1681.36,
+      "currency": "EUR",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "startedAt": "2012-11-02T04:21:17.056Z",
+      "userId": "5",
+      "packageId": "1",
+      "examination": 1,
+      "control": 7,
+      "duration": 3,
+      "durationUnit": "month",
+      "note": "",
+      "price": 4017.09,
+      "currency": "TRY"
+    },
+    {
+      "id": 8,
+      "startedAt": "2011-06-17T15:27:52.793Z",
+      "userId": "4",
+      "packageId": "4",
+      "examination": 6,
+      "control": 9,
+      "duration": 3,
+      "durationUnit": "day",
+      "note": "",
+      "price": 322.27,
+      "currency": "USD"
+    },
+    {
+      "id": 9,
+      "startedAt": "2011-10-24T18:54:54.771Z",
+      "userId": "4",
+      "packageId": "2",
+      "examination": 8,
+      "control": 3,
+      "duration": 4,
+      "durationUnit": "day",
+      "note": "",
+      "price": 455.44,
+      "currency": "EUR"
+    },
+    {
+      "id": 10,
+      "startedAt": "2011-12-15T02:29:46.470Z",
+      "userId": "3",
+      "packageId": "4",
+      "examination": 4,
+      "control": 6,
+      "duration": 6,
+      "durationUnit": "day",
+      "note": "",
+      "price": 3894.18,
+      "currency": "TRY"
+    },
+    {
+      "id": 11,
+      "startedAt": "2011-08-27T10:49:23.225Z",
+      "userId": "1",
+      "packageId": "2",
+      "examination": 6,
+      "control": 6,
+      "duration": 2,
+      "durationUnit": "year",
+      "note": "",
+      "price": 1206.19,
+      "currency": "TRY"
+    },
+    {
+      "id": 12,
+      "startedAt": "2011-12-18T20:01:55.084Z",
+      "userId": "2",
+      "packageId": "3",
+      "examination": 10,
+      "control": 1,
+      "duration": 6,
+      "durationUnit": "month",
+      "note": "",
+      "price": 1408.87,
+      "currency": "USD"
+    },
+    {
+      "id": 13,
+      "startedAt": "2013-02-11T16:03:14.019Z",
+      "userId": "5",
+      "packageId": "3",
+      "examination": 7,
+      "control": 1,
+      "duration": 4,
+      "durationUnit": "month",
+      "note": "",
+      "price": 4550.38,
+      "currency": "TRY"
+    },
+    {
+      "id": 14,
+      "startedAt": "2014-05-31T05:25:50.028Z",
+      "userId": "5",
+      "packageId": "4",
+      "examination": 2,
+      "control": 1,
+      "duration": 5,
+      "durationUnit": "day",
+      "note": "",
+      "price": 1956.44,
+      "currency": "TRY"
+    },
+    {
+      "id": 15,
+      "startedAt": "2012-04-07T19:41:09.646Z",
+      "userId": "2",
+      "packageId": "2",
+      "examination": 2,
+      "control": 5,
+      "duration": 4,
+      "durationUnit": "week",
+      "note": "",
+      "price": 1518.23,
+      "currency": "USD"
+    },
+    {
+      "startedAt": {},
+      "userId": "1",
+      "packageId": "2",
+      "examination": 10,
+      "control": 0,
+      "duration": 180,
+      "durationUnit": "day",
+      "note": "qwe",
+      "price": 250,
+      "currency": "TRY",
+      "id": 16
+    },
+    {
+      "startedAt": {},
+      "userId": "1",
+      "packageId": "3",
+      "examination": 20,
+      "control": 4,
+      "duration": 3,
+      "durationUnit": "week",
+      "note": "yennn",
+      "price": 12120,
+      "currency": "TRY",
+      "id": 17
+    },
+    {
+      "startedAt": {},
+      "userId": "2",
+      "packageId": "3",
+      "examination": 20,
+      "control": 0,
+      "duration": 3,
+      "durationUnit": "week",
+      "note": "",
+      "price": 12120,
+      "currency": "TRY",
+      "id": 18
+    },
+    {
+      "startedAt": {},
+      "userId": "2",
+      "packageId": "4",
+      "examination": "4",
+      "control": 2,
+      "duration": 6,
+      "durationUnit": "month",
+      "note": "",
+      "price": 1910000,
+      "currency": "TRY",
+      "id": 19
+    },
+    {
+      "startedAt": {},
+      "userId": "4",
+      "packageId": "Q8sFTRa",
+      "examination": 0,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "year",
+      "note": "",
+      "price": "",
+      "currency": "TRY",
+      "id": 20
+    },
+    {
+      "startedAt": {},
+      "userId": "3",
+      "packageId": "3",
+      "examination": 2,
+      "control": 0,
+      "duration": 0,
+      "durationUnit": "week",
+      "note": "",
+      "price": "55",
+      "currency": "TRY",
+      "id": 21
+    },
+    {
+      "startedAt": {},
+      "userId": "2",
+      "packageId": "4",
+      "examination": 7,
+      "control": 2,
+      "duration": 6,
+      "durationUnit": "month",
+      "note": "",
+      "price": 1910000,
+      "currency": "TRY",
+      "id": 22
+    },
+    {
+      "startedAt": {},
+      "userId": "2",
+      "packageId": "3",
+      "examination": 17,
+      "control": 0,
+      "duration": 3,
+      "durationUnit": "week",
+      "note": "",
+      "price": 12120,
+      "currency": "TRY",
+      "id": 23
+    }
+  ],
+  "package-usages": [
+    {
+      "id": 1,
+      "type": "examination",
+      "packageId": "1",
+      "userId": "1",
+      "note": "Muayene haftaya"
+    },
+    {
+      "id": 2,
+      "type": "examination",
+      "packageId": "1",
+      "userId": "2",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "type": "control",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Gerekli kontrol yapıldı"
+    },
+    {
+      "id": 4,
+      "type": "examination",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Bakılacak"
+    },
+    {
+      "id": 5,
+      "type": "control",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Gerekli kontrol yapıldı"
+    },
+    {
+      "id": 6,
+      "type": "control",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Gerekli kontrol yapıldı"
+    },
+    {
+      "id": 7,
+      "type": "control",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Gerekli kontrol yapıldı"
+    },
+    {
+      "id": 8,
+      "type": "control",
+      "packageId": "4",
+      "userId": "3",
+      "note": "Gerekli kontrol yapıldı"
+    },
+    {
+      "type": "examination",
+      "userId": null,
+      "useDate": null,
+      "note": "",
+      "id": 9
+    },
+    {
+      "type": "examination",
+      "packageId": "4",
+      "userId": "2",
+      "useDate": null,
+      "note": "yeni bu",
+      "id": 10
+    },
+    {
+      "type": "control",
+      "packageId": "4",
+      "userId": "1",
+      "useDate": null,
+      "note": "bu daha yeni",
+      "id": 11
+    },
+    {
+      "type": "examination",
+      "packageId": "3",
+      "userId": "1",
+      "useDate": null,
+      "note": "sasa",
+      "id": 12
+    },
+    {
+      "type": "control",
+      "packageId": "4",
+      "userId": "2",
+      "useDate": null,
+      "note": "yenile",
+      "id": 13
+    },
+    {
+      "type": 1,
+      "packageId": "4",
+      "userId": "4",
+      "useDate": null,
+      "note": "baba",
+      "id": 14
+    },
+    {
+      "type": 1,
+      "packageId": "3",
+      "userId": "2",
+      "useDate": null,
+      "note": "",
+      "id": 15
+    },
+    {
+      "type": "examination",
+      "packageId": "3",
+      "userId": "3",
+      "useDate": null,
+      "note": "",
+      "id": 16
+    },
+    {
+      "type": "control",
+      "packageId": "3",
+      "userId": "3",
+      "useDate": null,
+      "note": "yeni20lik",
+      "id": 17
+    },
+    {
+      "type": "examination",
+      "packageId": "3",
+      "userId": "2",
+      "useDate": null,
+      "note": "3",
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Twila Ellison",
+      "email": "twila_ellison@slofast.study",
+      "color": "#E7C3A8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0a8abecd8e663eec8",
+      "createdAt": "2013-06-01T22:19:36.892Z",
+      "updatedAt": "2013-06-02T22:19:36.892Z"
+    },
+    {
+      "id": "2",
+      "name": "Buchanan Shepard",
+      "email": "buchanan_shepard@medmex.technology",
+      "color": "#717EF1",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0dc30715eabf0f28c",
+      "createdAt": "2014-04-01T20:14:31.380Z",
+      "updatedAt": "2014-04-02T20:14:31.380Z"
+    },
+    {
+      "id": "3",
+      "name": "Hood Fuller",
+      "email": "hood_fuller@organica.cg",
+      "color": "#8FA5B2",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0b08564147a183091",
+      "createdAt": "2011-04-12T19:15:13.105Z",
+      "updatedAt": "2011-04-13T19:15:13.105Z"
+    },
+    {
+      "id": "4",
+      "name": "Robbins Craft",
+      "email": "robbins_craft@tri@tribalog.download",
+      "color": "#FD7D96",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0516a32104daf59fc",
+      "createdAt": "2012-06-18T04:30:38.272Z",
+      "updatedAt": "2012-06-19T04:30:38.272Z"
+    },
+    {
+      "id": "5",
+      "name": "Carla Levine",
+      "email": "carla_levine@shopabout.sr",
+      "color": "#E7C3A8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d06ebccbdacfe60396",
+      "createdAt": "2011-02-02T13:15:58.443Z",
+      "updatedAt": "2011-02-03T13:15:58.443Z"
+    },
+    {
+      "id": "6",
+      "name": "Josefa Flores",
+      "email": "josefa_flores@zidox.hotmail",
+      "color": "#9B77E7",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0ac6495adbfee4841",
+      "createdAt": "2010-07-28T17:31:43.664Z",
+      "updatedAt": "2010-07-29T17:31:43.664Z"
+    },
+    {
+      "id": "7",
+      "name": "Sybil Franklin",
+      "email": "sybil_franklin@norsup.cbn",
+      "color": "#3F83F8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0bf1e662e549afc66",
+      "createdAt": "2012-07-16T08:16:06.307Z",
+      "updatedAt": "2012-07-17T08:16:06.307Z"
+    },
+    {
+      "id": "8",
+      "name": "Coffey Hoover",
+      "email": "coffey_hoover@xiix.bs",
+      "color": "#898C6F",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d03dd9a29dc77593aa",
+      "createdAt": "2012-05-28T20:49:21.646Z",
+      "updatedAt": "2012-05-29T20:49:21.646Z"
+    },
+    {
+      "id": "9",
+      "name": "Landry Warren",
+      "email": "landry_warren@qimonk.wedding",
+      "color": "#0B698B",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d09446c24298b84e87",
+      "createdAt": "2013-07-17T00:44:55.383Z",
+      "updatedAt": "2013-07-18T00:44:55.383Z"
+    },
+    {
+      "id": "10",
+      "name": "Rhea Noel",
+      "email": "rhea_noel@cofine.claims",
+      "color": "#3F83F8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d091bc377612a7da0d",
+      "createdAt": "2014-08-22T07:18:41.769Z",
+      "updatedAt": "2014-08-23T07:18:41.769Z"
+    },
+    {
+      "id": "11",
+      "name": "Wallace Holloway",
+      "email": "wallace_holloway@zentility.il",
+      "color": "#3F83F8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d00dcf6950550eac52",
+      "createdAt": "2010-11-11T23:42:27.112Z",
+      "updatedAt": "2010-11-12T23:42:27.112Z"
+    },
+    {
+      "id": "12",
+      "name": "Sweet Curtis",
+      "email": "sweet_curtis@furnitech.li",
+      "color": "#73BFF3",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d077195cef5dfe095b",
+      "createdAt": "2012-02-01T10:50:06.154Z",
+      "updatedAt": "2012-02-02T10:50:06.154Z"
+    },
+    {
+      "id": "13",
+      "name": "Sharron Walton",
+      "email": "sharron_walton@virxo.nissan",
+      "color": "#7BC5C1",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0249fe0543fca8f10",
+      "createdAt": "2011-05-30T18:48:06.430Z",
+      "updatedAt": "2011-05-31T18:48:06.430Z"
+    },
+    {
+      "id": "14",
+      "name": "Santana Leblanc",
+      "email": "santana_leblanc@gushkool.al",
+      "color": "#E7C3A8",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d0b88f251f0ebf21af",
+      "createdAt": "2014-07-01T14:12:12.969Z",
+      "updatedAt": "2014-07-02T14:12:12.969Z"
+    },
+    {
+      "id": "15",
+      "name": "Valeria Bailey",
+      "email": "valeria_bailey@ultrimax.jp",
+      "color": "#73B0CD",
+      "photoUr": "https://i.pravatar.cc/128?u=6625e8d02746b804a3960a01",
+      "createdAt": "2013-09-06T21:33:58.325Z",
+      "updatedAt": "2013-09-07T21:33:58.325Z"
+    }
+  ]
+}

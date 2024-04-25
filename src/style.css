@@ -1,0 +1,28 @@
+@import "toastr";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(36 80 245 / 10%);
+}
+.dropdown-menu {
+    @apply py-2 text-sm text-gray-700 dark:text-gray-200
+}
+.dropdown-item {
+    @apply block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer
+}
+.btn-primary {
+    @apply relative text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm pr-5 ps-10 py-2.5 me-2 mb-2 focus:outline-none
+}
+.btn-primary::before {
+    content: "+";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 10px;
+    font-size: 24px;
+    top: 10px;
+}
